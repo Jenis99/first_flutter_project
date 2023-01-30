@@ -19,7 +19,6 @@ class _RadioButtonExampleState extends State<RadioButtonExample> {
       selected=val;
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

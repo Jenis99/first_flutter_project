@@ -47,6 +47,8 @@ import 'screen/Tabspractice.dart';
 import 'screen/Tabs_Controler_Example.dart';
 import 'screen/Alert_Dialog_Example.dart';
 import 'screen/Alert_Dialoge_Practice.dart';
+import 'screen/Bottom_navigation_with_fab.dart';
+import 'screen/Facebook_Clone.dart';
 
 void main() {
   runApp(MyApp());
@@ -62,7 +64,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         // fontFamily: "Quicksand",
       ),
-      home: Alert_Dialoge_Practice(),
+      home: StudentDetails(),
 
     );
   }
