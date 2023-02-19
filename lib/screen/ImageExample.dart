@@ -23,7 +23,6 @@ class _ImageExampleState extends State<ImageExample> {
             FadeInImage.assetNetwork(placeholder: "img/frame.png", image: "https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/a0d231cc-a242-48bd-a8dc-b0956cf36b63/699ec464-b3e3-462a-a2ea-ac4e74e9196a/1280x720/match/image.jpg"),
             Image.asset("img/frame.png",width: 200.0,color: Colors.black38,),
             Image.network("https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/a0d231cc-a242-48bd-a8dc-b0956cf36b63/699ec464-b3e3-462a-a2ea-ac4e74e9196a/1280x720/match/image.jpg")
-
           ],
         ),
       ),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Google_news.dart';
+
 class Sqflite_Example extends StatefulWidget {
   @override
   State<Sqflite_Example> createState() => _Sqflite_ExampleState();

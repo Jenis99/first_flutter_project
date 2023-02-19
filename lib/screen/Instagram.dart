@@ -49,7 +49,7 @@ class _InstagramState extends State<Instagram> {
                     SizedBox(width: 10.0,),
                     Image.asset("img/chat-bubble.png", color: Colors.white,),
                     SizedBox(width: 240.0,),
-                    Image.asset("img/chat-bubble.png", color: Colors.white,),
+                    Image.asset("img/chat-bubble.png", color: Colors.white,), 
 
                   ],
                 )
