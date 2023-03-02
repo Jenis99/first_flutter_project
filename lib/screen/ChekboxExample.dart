@@ -24,7 +24,7 @@ class _ChekboxExampleState extends State<ChekboxExample> {
               onChanged: (val)
               {
                 setState(() {
-                  selected = val;
+                  selected = val!;
                 });
               },
             ),

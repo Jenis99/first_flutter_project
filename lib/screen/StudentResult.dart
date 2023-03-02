@@ -2,16 +2,16 @@ import 'package:first_flutter_project/screen/StudentDetails.dart';
 import 'package:flutter/material.dart';
 StudentDetails obj=StudentDetails();
 class StudentResult extends StatefulWidget {
-  var name="";
-  var rollnumber="";
-  var gender="";
-  var std="";
-  var sub1="";
-  var subject2="";
-  var sub3="";
-  var subject4="";
-  var total ="";
-  var percentage ="";
+  var name;
+  var rollnumber;
+  var gender;
+  var std;
+  var sub1;
+  var subject2;
+  var sub3;
+  var subject4;
+  var total;
+  var percentage ;
 StudentResult({
   this.name,
   this.rollnumber,

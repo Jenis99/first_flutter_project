@@ -31,6 +31,7 @@ import 'package:first_flutter_project/screen/Statemanagementexample.dart';
 import 'package:first_flutter_project/screen/Statemanagementpractice_by_mathematichalopration.dart';
 import 'package:first_flutter_project/screen/StudentDetails.dart';
 import 'package:first_flutter_project/screen/StudentResult.dart';
+import 'package:first_flutter_project/screen/Table_widget_example.dart';
 import 'package:first_flutter_project/screen/Text_Widget_Example.dart';
 import 'package:first_flutter_project/screen/TextfieldExample.dart';
 import 'package:first_flutter_project/screen/Textfield_practice.dart';
@@ -64,7 +65,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         // fontFamily: "Quicksand",
       ),
-      home: StudentDetails(),
+      home: Table_widget_example(),
 
     );
   }

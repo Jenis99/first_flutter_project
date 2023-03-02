@@ -71,7 +71,7 @@ var _selected="Finance";
                     value: _selected,
                     onChanged: (val) {
                       setState(() {
-                        _selected = val;
+                        _selected = val!;
                       });
                     },
                     items: [

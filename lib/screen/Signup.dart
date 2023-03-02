@@ -105,7 +105,7 @@ class _SignupState extends State<Signup> {
                               groupValue: choose  ,
                               onChanged:  (val){
                                 setState(() {
-                                  choose=val;
+                                  choose=val!;
                                 });
                               }
                           ),
@@ -115,7 +115,7 @@ class _SignupState extends State<Signup> {
                               groupValue: choose  ,
                               onChanged:  (val){
                                 setState(() {
-                                  choose=val;
+                                  choose=val!;
                                 });
                               }
                           ),
@@ -129,7 +129,7 @@ class _SignupState extends State<Signup> {
                            onChanged: (val)
                            {
                              setState(() {
-                               selected = val;
+                               selected = val!;
                              });
                            },
                          ),

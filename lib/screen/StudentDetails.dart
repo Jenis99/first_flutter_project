@@ -97,7 +97,7 @@ class _StudentResultState extends State<StudentDetails> {
                     Radio(
                         value: "boy", groupValue: _value, onChanged: (value){
                           setState(() {
-                            _value=value;
+                            _value=value!;
                           });
                     },),
                     Text("Boy",style: TextStyle(
@@ -107,7 +107,7 @@ class _StudentResultState extends State<StudentDetails> {
                     Radio(
                         value: "girl", groupValue: _value, onChanged: (value){
                       setState(() {
-                        _value=value;
+                        _value=value!;
                       });
                     },),
                     Text("Girl",style: TextStyle(
@@ -125,7 +125,7 @@ class _StudentResultState extends State<StudentDetails> {
                     value: _selected,
                     onChanged: (val) {
                       setState(() {
-                        _selected = val;
+                        _selected = val!;
                       });
                     },
                     items: [

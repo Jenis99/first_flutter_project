@@ -30,7 +30,7 @@ class _TextformfieldState extends State<TextformfieldExample> {
                   keyboardType: TextInputType.text,
                   validator: (val)
                   {
-                    if(val.length <= 0)
+                    if(val!.length <= 0)
                       {
                         return "Please Enter Name";
                       }
@@ -44,11 +44,11 @@ class _TextformfieldState extends State<TextformfieldExample> {
                 keyboardType: TextInputType.phone,
                 validator: (val)
                 {
-                  if(val.length <=0)
+                  if(val!.length <=0)
                     {
                       return "Please enter Phone number";
                     }
-                  else if(val.length!=10)
+                  else if(val!.length!=10)
                     {
                       return "Please enter valid phone number";
                     }

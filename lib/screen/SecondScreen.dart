@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 
 class SecondScreen extends StatefulWidget {
 
-  var firstname="";
-  var age="";
+  var firstname;
+  var age;
 
   
   SecondScreen({this.firstname,this.age});

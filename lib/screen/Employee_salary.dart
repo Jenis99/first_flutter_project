@@ -2,13 +2,13 @@ import 'package:first_flutter_project/screen/Employee_detalis.dart';
 import 'package:flutter/material.dart';
 Employee_detalis obj=Employee_detalis();
 class Employee_salary extends StatefulWidget {
-  var name="";
-  var position="";
-  var pf="";
-  var hra="";
-  var da="";
-  var salary="";
-  var netsalary="";
+  var name;
+  var position;
+  var pf;
+  var hra;
+  var da;
+  var salary;
+  var netsalary;
   Employee_salary ({this.name,this.salary,this.pf,this.hra,this.da,this.netsalary});
   @override
   State<Employee_salary> createState() => _Employee_salaryState();

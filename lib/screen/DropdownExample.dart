@@ -29,7 +29,7 @@ class _DropdownExampleState extends State<DropdownExample> {
                 onChanged: (val)
                 {
                   setState(() {
-                    selected=val;
+                    selected=val!;
                   });
                 },
                 items: [

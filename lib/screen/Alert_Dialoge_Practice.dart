@@ -47,7 +47,7 @@ class _Alert_Dialoge_PracticeState extends State<Alert_Dialoge_Practice> {
                         keyboardType: TextInputType.emailAddress,
                         validator: (val)
                         {
-                          if(val.length <= 0)
+                          if(val!.length <= 0)
                           {
                             return "Please Enter Your Email";
                           }
@@ -73,7 +73,7 @@ class _Alert_Dialoge_PracticeState extends State<Alert_Dialoge_Practice> {
                         keyboardType: TextInputType.visiblePassword,
                         validator: (val)
                         {
-                          if(val.length <= 0)
+                          if(val!.length <= 0)
                           {
                             return "Please Enter Your Password";
                           }

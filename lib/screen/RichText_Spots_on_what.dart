@@ -141,7 +141,7 @@ class RichText_Spots_on_whatState extends State<RichText_Spots_on_what> {
                     value: _selected,
                     onChanged: (val){
                       setState(() {
-                        _selected=val;
+                        _selected=val!;
                       });
                     }),
                 RichText(

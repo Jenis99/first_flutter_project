@@ -7,7 +7,7 @@ class Tabs_Controler_Example extends StatefulWidget {
 
 class _Tabs_Controler_ExampleState extends State<Tabs_Controler_Example> with TickerProviderStateMixin{
 
-  TabController _tabcon;
+  TabController? _tabcon;
   var selected=0;
 
   @override
@@ -15,20 +15,20 @@ class _Tabs_Controler_ExampleState extends State<Tabs_Controler_Example> with Ti
     // TODO: implement initState
     super.initState();
     _tabcon = new TabController(length: 3, vsync: this);
-    _tabcon.addListener(_getselectedindex);
+    _tabcon?.addListener(_getselectedindex);
   }
 
   _getselectedindex()
   {
-    print(_tabcon.index.toString());
+    print(_tabcon?.index.toString());
     setState(() {
-      selected = _tabcon.index;
+      selected = _tabcon!.index;
     });
 
   }
   @override
   void dispose() {
-    _tabcon.dispose();
+    _tabcon!.dispose();
     super.dispose();
   }
 
@@ -42,7 +42,7 @@ class _Tabs_Controler_ExampleState extends State<Tabs_Controler_Example> with Ti
         actions: [
           IconButton(onPressed: (){
            // print("Index : "+_tabcon.index.toString());
-            _tabcon.animateTo(0);
+            _tabcon!.animateTo(0);
           }, icon: Icon(Icons.add_call))
         ],
         bottom: TabBar(
